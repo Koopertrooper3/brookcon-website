@@ -2,4 +2,6 @@ app
 conf
 logs
 wp-admin
-
+wp-includes
+./*.php
+*.png

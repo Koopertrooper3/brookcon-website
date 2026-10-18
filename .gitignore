@@ -4,11 +4,9 @@ logs
 wp-admin
 wp-includes
 *.png
-
+*.webp
 
 .htaccess
-index.php
-local-xdebuginfo.php
 readme.html
 wp-activate.php
 wp-blog-header.php
@@ -23,7 +21,11 @@ wp-mail.php
 wp-settings.php
 wp-signup.php
 wp-trackback.php
+index.php
+local-xdebuginfo.php
 xmlrpc.php
+./*.php
 
-wp-content\plugins\*
-wp-content\plugins\simply-static\assets\*
+wp-content/plugins/**
+
+wp-content/uploads/wp-carousel/*
